@@ -1,0 +1,5 @@
+.card-container {
+    /* background-color: aqua; */
+    display: flex;
+    margin-top: 0.5rem;
+}

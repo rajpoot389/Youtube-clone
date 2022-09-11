@@ -1,0 +1,132 @@
+.user-pic {
+    width: 2.7rem;
+    border-radius: 28px;
+
+}
+
+
+@media only screen and (min-width: 940px) {
+    .header-section {
+        display: flex;
+        gap: 8rem;
+        height: 4.1rem;
+        margin-bottom: 5rem;
+        position: fixed;
+        z-index: 1;
+        background-color: #fbfbfb;
+        width: 100vw;
+    }
+
+    .header-img-conatiner {
+        gap: 0.6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-img-conatiner img {
+        width: 8rem;
+        position: relative;
+    }
+
+    .search-box {
+        display: flex;
+        align-items: center;
+    }
+
+    .search-icon {
+        display: flex;
+        border: 1px solid black;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        /* bottom: 1.2px; */
+        height: 1rem;
+    }
+
+    .mic-icon {
+        display: flex;
+        border: 1px solid black;
+        justify-content: center;
+        align-items: center;
+        border-radius: 23px;
+        height: 2rem;
+        width: 2rem;
+        margin-left: 1rem;
+    }
+
+    .header-right {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .header-dummy {
+        height: 12rem;
+
+    }
+}
+
+@media only screen and (max-width: 938px) {
+    .header-section {
+        display: flex;
+        gap: 1rem;
+        height: 4.1rem;
+        margin-bottom: 5rem;
+        position: fixed;
+        z-index: 1;
+        background-color: #fbfbfb;
+        width: 100vw;
+    }
+
+    .header-img-conatiner {
+        gap: 0.6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-img-conatiner img {
+        width: 8rem;
+        position: relative;
+    }
+
+    .search-box {
+        display: flex;
+        align-items: center;
+    }
+
+    .search-icon {
+        display: flex;
+        border: 1px solid black;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        /* bottom: 1.2px; */
+        height: 1rem;
+    }
+
+    .mic-icon {
+        display: flex;
+        border: 1px solid black;
+        justify-content: center;
+        align-items: center;
+        border-radius: 23px;
+        height: 2rem;
+        width: 2rem;
+        margin-left: 1rem;
+    }
+
+    .header-right {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .header-dummy {
+        height: 12rem;
+
+    }
+}
